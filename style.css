@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  background: whitesmoke;
+
+  width: 100vw;
+  height: 100vh;
+}
+.btn {
+  display: none;
+  justify-content: left;
+}
+.elem {
+  border: 0.02px solid #333;
+}
+.hover {
+  background: #333;
+}
+.sketch {
+  display: grid;
+  grid-gap: 0.1em;
+
+  width: 500px;
+  height: 500px;
+
+  background: whitesmoke;
+
+  padding: 1em;
+  border: 3px solid #333;
+}
+.random {
+  background: orange;
+}
